@@ -1,75 +1,50 @@
-# 🧬 Simple Genetic Algorithm & AI Applications
+# Genetic Algorithm - Function Optimizer with GUI
 
-## 🚀 CP 468 Term Project - Wilfrid Laurier University  
+A genetic algorithm that minimizes benchmark functions, run through a Tkinter GUI with a live fitness plot.
 
-This project showcases the power of Genetic Algorithms (GA) in solving complex optimization problems using Artificial Intelligence (AI) techniques as part of a 400-level AI course at Wilfrid Laurier University. With a user-friendly Tkinter GUI, real-time fitness visualization, and flexible objective functions, this project brings evolution-inspired computing to life! 🌱⚡
+## At a Glance
 
----
+- **Stack:** Python, NumPy, Matplotlib, Tkinter
+- **Context:** CP 468 Artificial Intelligence term project, Wilfrid Laurier University
+- **State:** Complete
 
-## 🔥 Key Features
-✅ **Genetic Algorithm Implementation** – Evolutionary optimization via selection, crossover, mutation & elitism.  
-✅ **Adjustable Parameters** – Tune population size, mutation rate & generations.  
-✅ **Predefined & Custom Functions** – Supports **Sphere, Rosenbrock, Himmelblau**, and user-defined functions.  
-✅ **Real-time Fitness Visualization** – Watch your algorithm evolve with **Matplotlib plots**.  
-✅ **Interactive GUI** – No coding needed! Run experiments easily via our Tkinter-based interface. 🎛️  
+## Features
 
----
+- Selection, crossover, mutation and elitism
+- Tunable population size, mutation rate and generation count
+- Built-in Sphere, Rosenbrock and Himmelblau functions, plus custom ones
+- Live Matplotlib chart of best fitness per generation
+- No code needed to run experiments, everything is set in the GUI
 
-## 🛠 Tech Stack
-- **Python** 🐍 (Core implementation)
-- **NumPy** 🔢 (Optimized computations)
-- **Matplotlib** 📊 (Graph visualization)
-- **Tkinter** 🎨 (User-friendly GUI)
+## Objective Functions
 
----
+- **Sphere:** smooth bowl, tests basic convergence to the global minimum
+- **Rosenbrock:** narrow curved valley, tests progress on hard landscapes
+- **Himmelblau:** four minima, tests behaviour on multimodal functions
 
-## 📥 Installation
-### Prerequisites
-Ensure **Python 3.8+** is installed, then install dependencies:
-```bash
-pip install numpy matplotlib
+## Project Structure
+
+```
+artificial-intelligence-genetic-algorithm/
+├── genetic_algorithm.py            # GA, objective functions and Tkinter GUI
+└── genetic-algorithm-overview.pdf  # Project write-up
 ```
 
----
+## Running Locally
 
-## ▶️ How to Run
-1️⃣ **Clone this repository:**
-```bash
-git clone https://github.com/your-repo-link.git
-cd your-repo-folder
-```
-2️⃣ **Run the program:**
-```bash
-python genetic_algorithm.py
-```
-3️⃣ **Use the GUI:** Select functions, set parameters, and run optimization!
+1. Clone the repo and move into the project folder:
+   ```bash
+   git clone https://github.com/nakulpatel0306/artificial-intelligence-genetic-algorithm.git
+   cd artificial-intelligence-genetic-algorithm/artificial-intelligence-genetic-algorithm
+   ```
+2. Install dependencies (Python 3.8+) and launch the GUI:
+   ```bash
+   pip install numpy matplotlib
+   python genetic_algorithm.py
+   ```
 
----
+## Team
 
-## 📊 Objective Functions
-🔹 **Sphere Function** – Tests GA's convergence towards a global minimum.  
-🔹 **Rosenbrock Function** – Evaluates handling of complex landscapes.  
-🔹 **Himmelblau Function** – Assesses performance on multimodal functions.  
-🔹 **Custom Functions** – Define your own optimization challenges!  
+Romin Gandhi, Jenish Bharucha, Nakul Patel, Arsh Patel, Dhairya Patel, Paarth Bagga, Devarth Trivedi, Gleb Silin, Emmet Currie, Parker Riches
 
----
-
-## 🎨 GUI Features
-🎯 **Select & Customize Objective Functions**  
-⚙️ **Adjust GA Parameters (Population, Generations, Mutation Rate)**  
-📈 **Track Algorithm Performance in Real-Time**  
-
-
-
-## 📜 License
-Developed as part of **CP 468 - Artificial Intelligence** at **Wilfrid Laurier University**.
-⚠️ Do Not Copy
-
-
-
----
-
-## 👥 Team Members
-👨‍💻 **Romin Gandhi** | 👨‍💻 **Jenish Bharucha** | 👨‍💻 **Nakul Patel** | 👨‍💻 **Arsh Patel**  
-👨‍💻 **Dhairya Patel** | 👨‍💻 **Paarth Bagga** | 👨‍💻 **Devarth Trivedi** | 👨‍💻 **Gleb Silin**  
-👨‍💻 **Emmet Currie** | 👨‍💻 **Parker Riches**  
+Built as coursework for CP 468 at Wilfrid Laurier University. Please do not copy for academic submissions.
